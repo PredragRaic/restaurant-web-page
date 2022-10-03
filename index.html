@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css reset here -->
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/scrollToTopButton.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./CSS/slider.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+
+    <title>Restaurant</title>
+</head>
+<body>
+    <div class="mainCon">
+        <nav class="wrap navigation">
+            <div class="logo">
+                <img src="./IMG/pesto.png" alt="logo">
+            </div>
+            <div class="burgerBar">
+                <a href="#"><i class="fa-solid fa-bars fa-3x"></i></a>
+            </div>
+            <div class="menuElements">
+                <a href="#menii" id="plainMeniClick"><h3>Menu</h3></a>
+                <a href="#dichesClick" id="plainDischesClick"><h3>Diches</h3></a>
+                <a href="#AboutUss" id="plainAboutUss"><h3>About Us</h3></a>
+                <a href="#gallerija" id="plainGallery"><h3>Gallery</h3></a>
+            </div>
+            <div class="menuElementsMobileHover">
+                <a href="#meni" id="hovermeniClick"><h3>Menu</h3></a>
+                <a href="#dichesClick" id="hoverDichesClick"><h3>Diches</h3></a>
+                <a href="#AboutUss" id="hoverAboutUs"><h3>About Us</h3></a>
+                <a href="#gallerija" id="hoverGallery"><h3>Gallery</h3></a>
+            </div>
+            <div class="x-bar">
+                <a><i class="fa-solid fa-x fa-2x"></i></a>
+            </div>
+        </nav>
+
+        
+        <div class="firstBlockOfImg">
+            <div id="image1" class="pcs"><img src="./IMG/1.1.jpg" alt=""></div>
+            <div id="image2" class="pcs"><img src="./IMG/1.2.jpg" alt=""></div>
+            <div id="image3" class="pcs"><img src="./IMG/1.3.jpg" alt=""></div>
+            <div id="image4" class="pcs"><img src="./IMG/1.4.jpg" alt=""></div>
+
+            
+            <div class="textHoverOverFrstBlockOfImg">
+                <h1>This Template Is Awesome</h1>
+                <p><span>resto restaurant home page website template</span></p>
+            </div>
+            
+            <div class="menuRedflag" id="meni">
+                <div class="divBeforeMenuRedFlag"></div>
+                <h1>The Menu</h1>
+                <div class="divAfterMeniRedFlag"></div>
+            </div>
+        </div>
+        
+        <!-- slider -->
+        <div class="w3-container">
+            <div class="w3-content w3-display-container" style="max-width: 100%; height: auto;">
+                <img class="mySlides" src="./IMG/1.1.jpg" style="width:100%">
+                <img class="mySlides" src="./IMG/1.2.jpg" style="width:100%">
+                <img class="mySlides" src="./IMG/1.3.jpg" style="width:100%">
+                <img class="mySlides" src="./IMG/1.4.jpg" style="width:100%">
+                <div class="textHoverOverFrstBlockOfImg">
+                    <h1>This Template Is Awesome</h1>
+                    <p><span>resto restaurant home page website template</span></p>
+                </div>
+                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                    <div class="w3-left w3-hover-text-khaki slider-button slider-button--prev" onclick="plusDivs(-1)">&#10094;</div>
+                    <div class="w3-right w3-hover-text-khaki slider-button slider-button--next" onclick="plusDivs(1)">&#10095;</div>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+                </div>
+            </div>
+            <div class="menuRedflag" id="menii">
+                <div class="divBeforeMenuRedFlag"></div>
+                <h1>The Menu</h1>
+                <div class="divAfterMeniRedFlag"></div>
+            </div>
+        </div>
+        
+        
+        <!-- slider up Code -->
+
+
+
+
+        <div class="foodSelction wrap">
+
+            <div class="food-price-description">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Voluptate cillum fugiat.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$50</h4></div>
+                </div>
+                <div class="describe-food"><p>Cheese, Tomato, Mushrooms, Onions.</p></div>
+            </div>
+
+            <div class="food-price-description">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Arcu pede enim justo.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$45</h4></div>
+                </div>
+                <div class="describe-food"><p>Tuna, Sweetcorn, Cheese.</p></div>
+            </div>
+
+            <div class="food-price-description">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Metus varius laoreet.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$62</h4></div>
+                </div>
+                <div class="describe-food"><p>Tuna, Sweetcorn, Cheese.</p></div>
+            </div>
+
+            <div class="food-price-description">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Cras dapibussemper nisi.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$32</h4></div>
+                </div>
+                <div class="describe-food"><p>Pineapple, Minced Beef, Cheese.</p></div>
+            </div>
+
+            <div class="food-price-description">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Donec sodales magama.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$25</h4></div>
+                </div>
+                <div class="describe-food"><p>Tuna, Sweetcorn, Cheese.</p></div>
+            </div>
+            
+            <div class="food-price-description">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Quam semper libero.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$15</h4></div>
+                </div>
+                <div class="describe-food"><p>Cheese, Tomato, Mushrooms, Onions.</p></div>
+            </div>
+
+            <div class="food-price-description">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Saugue velit cursus.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$30</h4></div>
+                </div>
+                <div class="describe-food"><p>Pineapple, Minced Beef, Cheese.</p></div>
+            </div>
+
+            <div class="food-price-description">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Nam eget dui Etiam.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$35</h4></div>
+                </div>
+                <div class="describe-food"><p>Chicken, Mozzarella Cheese, Onions.</p></div>
+            </div>
+
+            <div class="food-price-description hidden" id="one">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Wild mushrooms cream soup.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$7</h4></div>
+                </div>
+                <div class="describe-food"><p>Wild Mushrooms, sour cream, scallions.</p></div>
+            </div>
+
+            <div class="food-price-description hidden" id="two">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Redneck pulled pork.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$18</h4></div>
+                </div>
+                <div class="describe-food"><p>Roasted pork meat, coleslaw, bbq sauce, bun.</p></div>
+            </div>
+
+            <div class="food-price-description hidden" id="three">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Chocolate cheesecake.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$11</h4></div>
+                </div>
+                <div class="describe-food"><p>Dark chocolate cheesecake with chocolate flakes.</p></div>
+            </div>
+
+            <div class="food-price-description hidden" id="four">
+                <div class="line-between-food-and-price">
+                    <div class="food"><h4>Vegetables salad.</h4></div>
+                    <div class="lineBetween"></div>
+                    <div class="price"><h4>$10</h4></div>
+                </div>
+                <div class="describe-food"><p>Tomato, lettuce, Onions, olive oil.</p></div>
+            </div>
+            
+        </div>
+        <div class="expand-and-colaps-button wrap">
+            <h4>View all menu &nbsp;&nbsp;|</h4>
+            <div class="chevron">
+                <div class="chevronDown"><i class="fa-solid fa-angle-down"></i></div>
+                <div class="chevronUp"><i class="fa-solid fa-angle-up"></i></div>
+            </div>
+        </div>
+
+        <div class="featuredDishes wrap" id="dichesClick">
+            <div class="featuredDishesdTitleWithDottsAndLine">
+                <div class="TContainer">
+                    <div class="h1Title"><h1>FEATURED DISHES</h1></div>
+                    <div class="lineBetween-FD-AndDots"></div>
+                </div>
+                <div class="f-d-RedDotts">
+                    <div class="secondDott"></div>
+                    <div class="secondDott"></div>
+                    <div class="secondDott"></div>
+                    <div class="secondDott"></div>
+                </div>
+            </div>
+
+            <div class="imgBlockWrap">
+                <div class="imageBlock">
+                    <div class="pcs1"><img src="./IMG/2.1.jpeg" alt=""></div>
+                    <div class="lineUnderImage">
+                        <div class="f-dFoodTitle"><h4>Funiat nulla sint</h4></div>
+                        <div class="priceFD"><h4>$30</h4></div>
+                    </div>
+                    <div class="likeLine">
+                        <div class="whiteHeart"><i class="fa-regular fa-heart"></i></div>
+                        <div class="redHeart"><i class="fa-solid fa-heart" style="color: red;"></i></div>
+                        <div class="countNUmber"><p>0</p></div>
+                        <div class="peopleLoveThis"><p>people love this</p></div>
+                    </div>
+                </div>
+
+                <div class="imageBlock">
+                    <div class="pcs1"><img src="./IMG/2.2.jpeg" alt=""></div>
+                    <div class="lineUnderImage">
+                        <div class="f-dFoodTitle"><h4>Daute irure dolor</h4></div>
+                        <div class="priceFD"><h4>$24</h4></div>
+                    </div>
+                    <div class="likeLine">
+                        <div class="whiteHeart"><i class="fa-regular fa-heart"></i></div>
+                        <div class="redHeart"><i class="fa-solid fa-heart" style="color: red;"></i></div>
+                        <div class="countNUmber"><p>0</p></div>
+                        <div class="peopleLoveThis"><p>people love this</p></div>
+                    </div>
+                </div>
+
+                <div class="imageBlock">
+                    <div class="pcs1"><img src="./IMG/2.3.jpeg" alt=""></div>
+                    <div class="lineUnderImage">
+                        <div class="f-dFoodTitle"><h4>Officia deserunt mollit</h4></div>
+                        <div class="priceFD"><h4>$60</h4></div>
+                    </div>
+                    <div class="likeLine">
+                        <div class="whiteHeart"><i class="fa-regular fa-heart"></i></div>
+                        <div class="redHeart"><i class="fa-solid fa-heart" style="color: red;"></i></div>
+                        <div class="countNUmber"><p>0</p></div>
+                        <div class="peopleLoveThis"><p>people love this</p></div>
+                    </div>
+                </div>
+
+                <div class="imageBlock">
+                    <div class="pcs1"><img src="./IMG/2.4.jpeg" alt=""></div>
+                    <div class="lineUnderImage">
+                        <div class="f-dFoodTitle"><h4>Pim minim veniam</h4></div>
+                        <div class="priceFD"><h4>$17</h4></div>
+                    </div>
+                    <div class="likeLine">
+                        <div class="whiteHeart"><i class="fa-regular fa-heart"></i></div>
+                        <div class="redHeart"><i class="fa-solid fa-heart" style="color: red;"></i></div>
+                        <div class="countNUmber"><p>0</p></div>
+                        <div class="peopleLoveThis"><p>people love this</p></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="aboutUsBlock wrap" id="AboutUss">
+            <div class="TContainer">
+                <div class="h1Title"><h1>ABOUT US</h1></div>
+                <div class="lineBetween-FD-AndDots"></div>
+            </div>
+            <div class="aboutUsTitle">
+                <h1>Today's restaurant is theater on a grand scale.</h1>
+            </div>
+            <div class="parafWrap">
+                <div class="pragraf1">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typeset-ting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever <span style="text-decoration-line: line-through; color: gray">since the 1500s</span>, <span style="color: black; font-weight: 600;">when an unknown printer</span>
+                        took a gallery of type and scrambled it to make a type specimen book. <span style="color: black; font-weight:bold">It has survived not only five centuries</span>, but also the leap 
+                        into electronic typesetting, Lorem ipsum is made on 25<sup>th</sup> April 1500.
+                    </p>
+                    <div class="lineUnderPh"></div>
+                </div>
+                <div class="paragraf2">
+                    <p> Lorem Ipsum is simply dummy text of the printing and typeset-ting industry. 
+                        <span style="color: black; font-weight:bold">Lorem Ipsum has been the industry's standard</span> dummy text ever since the 1500s, <span style="color: black; font-weight: 600;">unknown printer</span>
+                        took a gallery of type and scrambled it to make a type specimen bool. <span style="color: black; font-weight:bold">It has survived not only five centuries</span>, but also the leap 
+                        into electronic typesetting.
+                    </p>
+                </div>
+                <div class="paragraf3">
+                    <div class="paragraf3Title"><p>It was popularised:</p></div>
+                    <div class="paragrafList">
+                        <ul>
+                            <li>Lorem Ipsum is simply dummy text of the printing.</li>
+                            <li>When an unknown printer took a gallery of type and scrambled it to make a type specimen book.</li>
+                            <li>Dummy text ever since the 1500s</li>
+                        </ul>
+                    </div>
+                </div> 
+                <div class="paragraf4">
+                    <div class="quoteBefore"><i class="fa-solid fa-quote-left" style="color: lightgray;"></i></div>
+                    <div class="quotesp"><p>Memories are like mulligatawny soup in a cheap restaurant. It is best not to stir them.</p></div>
+                    <div class="quoteAfter"><i class="fa-solid fa-quote-right" style="color: lightgray;"></i></div>
+                </div>
+            </div>    
+        </div>
+
+            
+        <div class="galleryBlock wrap" id="gallerija">
+            <div class="TContainer">
+                <div class="h1Title"><h1>THE GALLERY</h1></div>
+                <div class="lineBetween-FD-AndDots"></div>
+            </div>
+
+            <div class="galleryImg" id="moj">
+
+                <div class="gPsc item-one">
+                    <div class="gPcsIg">
+                        <img src="./IMG/3.1.jpeg" alt="">
+                    </div>
+                    <div class="iGall">
+                        <a class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </div>
+              
+            
+            
+                <div class="gPsc">
+                    <div class="gPcsIg">
+                        <img src="./IMG/3.2.jpeg" alt="">
+                    </div>
+                    <div class="iGall">
+                        <a class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </div>
+            
+
+            
+                <div class="gPsc">
+                    <div class="gPcsIg">
+                        <img src="./IMG/3.3.webp" alt="">
+                    </div>
+                    <div class="iGall">
+                        <a  class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </div>
+            
+
+            
+                <div class="gPsc">
+                    <div class="gPcsIg">
+                        <img src="./IMG/3.4.jpeg" alt="">
+                    </div>
+                    <div class="iGall">
+                        <a class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </div>
+            
+
+            
+                <div class="gPsc">
+                    <div class="gPcsIg">
+                        <img src="./IMG/3.5.jpeg" alt="">
+                    </div>
+                    <div class="iGall">
+                        <a class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </div>
+            
+            </div>
+                
+        </div>
+
+        <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+
+        <div onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+        
+
+        <footer>
+            <div class="frame wrap">
+                <div class="foot PhOne">
+                    <p><span style="font-weight: bold;">New York Restaurant</span></p>
+                    <p>3926 Anmoore Road</p>
+                    <p>New York, NY 10014</p>
+                    <p><span style="font-weight: bold;"> 718-749-1714 </span></p>
+                </div>
+                <div class="foot PhTwo">
+                    <p><span style="font-weight: bold;">France Restaurant</span></p>
+                    <p>68, rue de la Couronne</p>
+                    <p>75002 PARIS</p>
+                    <p><span style="font-weight: bold;">02.94.23.69.56</span></p>
+                </div>
+                <div class="foot PhThree">
+                    <p><a href="https://www.blogger.com/about/?bpli=1" target="_blank">Blog</a></p>
+                    <p><a href="https://www.indeed.com/career-advice/career-development" target="_blank">Careers</a></p>
+                    <p><a href="https://privacy.com/" target="_blank">Pivacy</a></p>
+                    <p><a href="https://vapiano.com/contact/" target="_blank">Contact</a></p>
+                </div>
+                <div class="foot PhFour">
+                    <div class="footIMg">
+                        <img src="./IMG/pesto.png" alt="">
+                    </div>
+                    <p>&copy; All Rights Reseerved 2014.</p>
+                    <p>Find more at <a href="https://serp.ai/shop/" target="_blank">Pixelhint.com</a></p>
+                </div>
+            </div>
+        </footer>
+          
+    </div>
+
+    <div id="slick">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slider_content">
+                        <div class="slider_items">
+                            <img src="./IMG/3.1.jpeg" alt="">
+                        </div>
+                        <div class="slider_items">
+                            <img src="./IMG/3.2.jpeg" alt="">
+                        </div>
+                        <div class="slider_items">
+                            <img src="./IMG/3.3.webp" alt="">
+                        </div>
+                        <div class="slider_items">
+                            <img src="./IMG/3.4.jpeg" alt="">
+                        </div>
+                        <div class="slider_items">
+                            <img src="./IMG/3.5.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="arrow_prev">
+                        <span><i class="fa-solid fa-chevron-left"></i></span>
+                    </div>
+                    <div class="arrow_next">
+                        <span><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                    <div class="x_bar">
+                        <span><i class="fa-solid fa-xmark"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+      
+   <script src="./JS/ScrollToTopButton.js"></script>
+    <script src="./JS/main.js"></script>
+    <script src="./slider.js"></script>
+    <script src="https://kit.fontawesome.com/e28ce7eb79.js" crossorigin="anonymous"></script>
+
+
+    
+</body>
+</html>

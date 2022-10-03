@@ -1,0 +1,25 @@
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    /* z-index: 1; */
+    border: none;
+    outline: none;
+    background-color: rgb(218, 85, 85);
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: .5;
+}
+.fa-chevron-up{
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+#myBtn:hover{
+    opacity: .9;
+}
